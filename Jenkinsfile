@@ -11,8 +11,10 @@ pipeline{
           sh 'mvn clean'
           }
       }
-      stage('Deploy')  
+        stage('Deploy'){ 
         steps{
-          echo 'Deploy Stage'  
-    }
+          echo 'Deploy Stage' 
+           }
+     }      
+  }
 }
